@@ -1,0 +1,23 @@
+body {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.imgMe {
+  opacity: .25;
+  border-radius: 50%;
+}
+img {
+  opacity: .6;
+  border-radius: 5%;
+}
+img:hover {
+  opacity: 1;
+}
+h1 {
+  font-family: "Masturbator";
+  font-size: 40px
+}
+
