@@ -23,7 +23,8 @@ module.exports = {
         tpGreen: "#47a54e",
         tpPink: "	#f9e9e9",
         smokeyWhite: "#f5f5f5",
-        honeyGold: " #FDF1DF"
+        honeyGold: " #FDF1DF",
+        logoBlue: "#00ADEF"
       },
       fontFamily: {
         custom1: ["Rowdies"],
