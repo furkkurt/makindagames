@@ -34,9 +34,19 @@ module.exports = {
       },
       spacing: {
         '96': '24rem',
+        '112': '28rem',
         '128': '32rem',
         '192': '48rem',
         '256': '64rem',
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 12s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
       }
     },
   },

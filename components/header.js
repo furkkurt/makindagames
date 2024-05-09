@@ -15,12 +15,17 @@ template.innerHTML = `
           <p class="text-tpRed text-2xl font-custom1">DAG</p>
           <p class="text-tpPink text-2xl font-custom1 hidden md:flex">ames</p>
       </div>
+      <div class="font-custom1 text-tpPink overflow-hidden mx-16 hidden jusitfy-items-right lg:block">
+        <p class="animate-infinite-scroll w-screen whitespace-nowrap pl-128">
+          THE SITE IS IN PROGRESS, THE GAMES WILL BE PORTED FOR WEB AND WILL BE PLAYABLE ON THIS SITE
+        </p>
+      </div>
       <!-- Menu Items -->
-      <div class="justify-around space-x-4 pr-8">
+      <div class="justify-around space-x-4 pr-8 whitespace-nowrap">
         <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Home</a>
-        <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">About</a>
+        <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Games</a>
         <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Portfolio</a>
-        <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Contact</a>
+        <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Blog</a>
       </div>
     
     </header>
