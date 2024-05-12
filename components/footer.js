@@ -14,7 +14,7 @@ template.innerHTML = `
         <hr class="pb-2 w-1/2">
         <p class="pl-2 text-white">afurkankurt@outlook.com</p>
         <p class="pl-2 text-white">+90 552 248 41 38</p>
-        <a href="#" class="pl-2 text-white hover:scale-110 transition">Other social accounts</a>
+        <a href="../contacts.html" class="pl-2 text-white hover:scale-110 transition">Other social accounts</a>
       </div>
       <div class="justify-center items-center w-full hidden md:flex">
         <img class="h-40 border-y-4" src="../assets/logo.png" />

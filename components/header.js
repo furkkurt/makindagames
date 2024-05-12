@@ -22,10 +22,10 @@ template.innerHTML = `
       </div>
       <!-- Menu Items -->
       <div class="justify-around space-x-4 pr-8 whitespace-nowrap">
-        <a href="index.html" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Home</a>
-        <a href="games.html" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Games</a>
-        <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Portfolio</a>
-        <a href="#" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Blog</a>
+        <a href="index.html" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Games</a>
+        <a href="about.html" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">About</a>
+        <a href="portfolio.html" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Portfolio</a>
+        <a href="blog.html" class="text-tpPink font-custom1 hover:text-tpRed hover:scale-110 transition">Blog</a>
       </div>
     
     </header>
