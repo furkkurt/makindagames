@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+.container-1, .container-2, .container-3{
+    margin: 0 auto;
+    text-align: center;
+}
+.container-4{
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#p2, #p3, #p4, #p5, #p6, #p7{
+    line-height: 4px;
+}
+#attack, #run, #enter, #notEnter, #attackBoss, #accept, #reject, #dungeonContinue, #dungeonLeave, #statClose, #delete2, #restartDead, #helpStop, #choseRun, #choseStay, #staySkip, #helpSkip, #bossFightSkip{
+    display: none;
+}
+.container-2 button{
+    display: none;
+}
+
+.info{
+    width: calc(100% - 155px);
+    height: 160px;
+    border: grey 5px double;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: honeydew;
+    font-size: large;
+    font-style: italic;
+    font-family: "Brush Script Std, cursive";
+    overflow: scroll;
+}
+.picbord {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border: grey 5px double;
+}
+.contalt {
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+#picStory {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    height: calc(100% - 160px);
+    width: auto;
+}

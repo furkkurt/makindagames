@@ -1,0 +1,292 @@
+
+skeleton.png
+size: 1717,1866
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kid1Bicep
+  rotate: false
+  xy: 2, 2
+  size: 94, 184
+  orig: 100, 300
+  offset: 2, 66
+  index: -1
+kid1Body
+  rotate: false
+  xy: 345, 2
+  size: 171, 347
+  orig: 250, 500
+  offset: 42, 69
+  index: -1
+kid1Face1
+  rotate: false
+  xy: 688, 2
+  size: 341, 340
+  orig: 350, 350
+  offset: 5, 7
+  index: -1
+kid1Face2
+  rotate: false
+  xy: 1031, 2
+  size: 340, 340
+  orig: 350, 350
+  offset: 10, 4
+  index: -1
+kid1Face3
+  rotate: false
+  xy: 1374, 2
+  size: 340, 340
+  orig: 350, 350
+  offset: 10, 5
+  index: -1
+kid1Shin
+  rotate: false
+  xy: 2, 468
+  size: 108, 250
+  orig: 150, 300
+  offset: 28, 21
+  index: -1
+kid1Thigh
+  rotate: false
+  xy: 345, 468
+  size: 86, 216
+  orig: 100, 300
+  offset: 10, 44
+  index: -1
+kid1Tricep
+  rotate: false
+  xy: 688, 468
+  size: 88, 188
+  orig: 100, 250
+  offset: 8, 21
+  index: -1
+kid2Bicep
+  rotate: false
+  xy: 1031, 468
+  size: 68, 169
+  orig: 100, 200
+  offset: 24, 10
+  index: -1
+kid2Body
+  rotate: false
+  xy: 1374, 468
+  size: 202, 399
+  orig: 250, 500
+  offset: 24, 51
+  index: -1
+kid2Face1
+  rotate: false
+  xy: 2, 934
+  size: 186, 250
+  orig: 250, 250
+  offset: 42, 0
+  index: -1
+kid2Face2
+  rotate: false
+  xy: 345, 934
+  size: 188, 250
+  orig: 250, 250
+  offset: 40, 0
+  index: -1
+kid2Face3
+  rotate: false
+  xy: 688, 934
+  size: 191, 250
+  orig: 250, 250
+  offset: 38, 0
+  index: -1
+kid2Shin
+  rotate: false
+  xy: 1031, 934
+  size: 117, 243
+  orig: 150, 300
+  offset: 16, 44
+  index: -1
+kid2Thigh
+  rotate: false
+  xy: 1374, 934
+  size: 73, 246
+  orig: 150, 300
+  offset: 38, 30
+  index: -1
+kid2Tricep
+  rotate: false
+  xy: 2, 1400
+  size: 66, 214
+  orig: 100, 250
+  offset: 22, 6
+  index: -1
+kid3Bicep
+  rotate: false
+  xy: 345, 1400
+  size: 35, 99
+  orig: 100, 200
+  offset: 36, 54
+  index: -1
+kid3Body
+  rotate: false
+  xy: 688, 1400
+  size: 109, 215
+  orig: 150, 300
+  offset: 21, 43
+  index: -1
+kid3Face1
+  rotate: false
+  xy: 1031, 1400
+  size: 91, 134
+  orig: 150, 150
+  offset: 30, 8
+  index: -1
+kid3Face2
+  rotate: false
+  xy: 1374, 1400
+  size: 90, 129
+  orig: 150, 150
+  offset: 31, 10
+  index: -1
+
+skeleton2.png
+size: 1717,1866
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kid3Face3
+  rotate: false
+  xy: 2, 2
+  size: 90, 136
+  orig: 150, 150
+  offset: 31, 6
+  index: -1
+kid3Shin
+  rotate: false
+  xy: 345, 2
+  size: 65, 163
+  orig: 100, 200
+  offset: 26, 18
+  index: -1
+kid3Thigh
+  rotate: false
+  xy: 688, 2
+  size: 42, 114
+  orig: 100, 200
+  offset: 29, 46
+  index: -1
+kid3Tricep
+  rotate: false
+  xy: 1031, 2
+  size: 37, 139
+  orig: 100, 200
+  offset: 32, 20
+  index: -1
+kid4Bicep
+  rotate: false
+  xy: 1374, 2
+  size: 50, 131
+  orig: 50, 150
+  offset: 0, 12
+  index: -1
+kid4Body
+  rotate: false
+  xy: 2, 468
+  size: 129, 245
+  orig: 150, 300
+  offset: 8, 26
+  index: -1
+kid4Face1
+  rotate: false
+  xy: 345, 468
+  size: 169, 160
+  orig: 200, 200
+  offset: 17, 22
+  index: -1
+kid4Face2
+  rotate: false
+  xy: 688, 468
+  size: 169, 161
+  orig: 200, 200
+  offset: 17, 21
+  index: -1
+kid4Face3
+  rotate: false
+  xy: 1031, 468
+  size: 169, 160
+  orig: 200, 200
+  offset: 17, 22
+  index: -1
+kid4Shin
+  rotate: false
+  xy: 1374, 468
+  size: 56, 194
+  orig: 100, 250
+  offset: 27, 29
+  index: -1
+kid4Thigh
+  rotate: false
+  xy: 2, 934
+  size: 50, 151
+  orig: 100, 250
+  offset: 25, 48
+  index: -1
+kid4Tricep
+  rotate: false
+  xy: 345, 934
+  size: 32, 142
+  orig: 50, 150
+  offset: 13, 2
+  index: -1
+teacherBicep
+  rotate: false
+  xy: 688, 934
+  size: 99, 272
+  orig: 100, 300
+  offset: 0, 14
+  index: -1
+teacherBody
+  rotate: false
+  xy: 1031, 934
+  size: 240, 464
+  orig: 250, 500
+  offset: 5, 16
+  index: -1
+teacherFace1
+  rotate: false
+  xy: 1374, 934
+  size: 317, 345
+  orig: 350, 350
+  offset: 16, 3
+  index: -1
+teacherFace2
+  rotate: false
+  xy: 2, 1400
+  size: 318, 345
+  orig: 350, 350
+  offset: 15, 2
+  index: -1
+teacherFace3
+  rotate: false
+  xy: 345, 1400
+  size: 317, 350
+  orig: 350, 350
+  offset: 20, 0
+  index: -1
+teacherShin
+  rotate: false
+  xy: 688, 1400
+  size: 89, 371
+  orig: 100, 400
+  offset: 8, 6
+  index: -1
+teacherThigh
+  rotate: false
+  xy: 1031, 1400
+  size: 97, 299
+  orig: 100, 300
+  offset: 0, 1
+  index: -1
+teacherTricep
+  rotate: false
+  xy: 1374, 1400
+  size: 50, 208
+  orig: 100, 250
+  offset: 24, 16
+  index: -1

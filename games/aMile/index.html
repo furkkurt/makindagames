@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rpg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body onload="autoload()">
+    <script src="script.js"></script>
+    <div class="container-4"><img id="picStory">
+    <div class="container-1">
+        <button id="myCharacter" class="btn-info" onclick="yourStats()">My Character</button>
+        <button id="statClose" class="btn-info" onclick="statClear()">Close</button>
+        <button id="travel" class="btn-success" onclick="travel(); statClear2()">Travel</button>
+        <button id="enter" class="btn-warning" onclick="enter(); statClear2()">Enter</button>
+        <button id="notEnter" class="btn-warning" onclick="notEnter(); statClear2()">Don't Enter</button>
+        <button id="accept" class="btn-success" onclick="villageAccept(); statClear2()">Accept</button>
+        <button id="reject" class="btn-warning" onclick="villageReject(); statClear2()">Reject</button>
+        <button id="dungeonContinue" class="btn-warning" onclick="dungeonContinue(); statClear2()">Continue to next room</button>
+        <button id="dungeonLeave" class="btn-warning" onclick="dungeonLeave(); statClear2()">Leave Dungeon</button>
+        <button id="attack" class="btn-warning" onclick="combatOrder(yourSpeed, monSpeed); statClear2()">Attack</button>
+        <button id="run" class="btn-warning" onclick="run(); statClear2()">Run</button>
+        <button id="choseRun" class="btn-warning" onclick="choseRun(); statClear2()">Run</button>
+        <button id="choseStay" class="btn-warning" onclick="choseStay(); statClear2()">Stay</button>
+        <div class="contalt">
+        <button id="restartDead" class="btn-danger" onClick="window.location.reload();">Restart</button>
+        <button id="save" class="btn-warning" onclick="saveData(); statClear2()">Save</button>
+        <button id="delete" class="btn-danger" onclick="deleteCheck()">Delete Save</button>
+        <button id="delete2" class="btn-danger" onClick="delete3()">I said delete save!</button>
+        <button id="help" class="btn-warning" onclick="help(); statClear2()">Help</button>
+        <button id="helpStop" class="btn-warning" onclick="helpStop(); statClear2()">Stop</button>
+        <button id="storySkip1" class="btn-secondary" onclick="storySkip1()">Next</button>
+        <button id="staySkip" class="btn-secondary" onclick="staySkip()">Next</button>
+        <button id="helpSkip" class="btn-secondary" onclick="helpSkip()">Next</button>
+        <button id="bossFightSkip" class="btn-secondary" onclick="bossFightSkip()">Next</button>
+        </div>
+    </div>
+    <div id="box" class="container-2">
+        <p id="p1" style="font-style: italic; font-size: large; color: gray;"></p>
+        <p id="currentHp" style="font-weight: bold; font-size: small;"></p>
+        <p id="p2" style="font-weight: bold; font-size: small;"></p>
+        <p id="p3" style="font-weight: bold; font-size: small;"></p>
+        <p id="p4" style="font-weight: bold; font-size: small;"></p>
+        <p id="p5" style="font-weight: bold; font-size: small;"></p>
+        <p id="p6" style="font-weight: bold; font-size: small;"></p>
+        <p id="p7" style="font-weight: bold; font-size: small;"></p>
+        <div id="boxAttack"></div>
+        <div id="boxAttack2"></div>
+        <div id="boxAttack3"></div>
+        <div id="boxAttack4"></div>
+        <div id="boxAttack5"></div>
+        <div id="levelUp"></div>
+        <div id="itemDrop"></div>
+    </div>
+    <div id="items" class="container-2">
+        <h6 style="color: purple;">Inventory:</h6>
+        <button id="healing potion" class="btn-secondary" onclick="useItem('healing potion')">Use healing potion</button>
+        <button id="escape potion" class="btn-secondary" onclick="useItem('escape potion')">Use escape potion</button>
+        <button id="a better sword" class="btn-success" onclick="useItem('a better sword')">Equip better sword</button>
+        <button id="a better armor" class="btn-success" onclick="useItem('a better armor')">Equip better armor</button>
+    </div>
+    <div class=picbord>
+        <img id="pic">
+    </div>
+    <div class= "infoBorder"><div class= "info" id=info></div></div>
+    </div>
+</body>
+</html>
